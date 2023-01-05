@@ -111,7 +111,8 @@ input{
     resize: both;
     max-width: 18rem;
     background-color: #EEEEEE;
-    border-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     height: 20rem;
   }
 
@@ -122,6 +123,6 @@ input{
     width: 35rem;
     height: 24rem;
     margin-top: 3rem;
-    border-radius: 3rem;
+    border-radius: 1.23rem;
   }
 }
