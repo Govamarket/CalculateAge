@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&family=Sora:wght@500&display=swap');
+
+
+*{
+  
+font-family: 'Roboto', sans-serif;
+font-family: 'Sora', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+  box-sizing: border-box;
+}
+/* styling the body */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.box h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0,1,126);
+  border-bottom: rgb(185, 183, 183) solid 1px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.4rem;
+}
+
+.box{
+  box-sizing: border-box;
+  background-color: #0F7FE1;
+  resize: both;
+  width: 35rem;
+  height: 24rem;
+  margin-top: 3rem;
+}
+
+form{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  resize: both;
+  max-width: 22rem;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  height: 20rem;
+}
+
+.rows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 3rem;
+}
+.rows .col-1, .col-2, .col-3{
+  padding-top: 2rem;
+}
+.rows label{
+  color: #0F7FE1;
+}
+
+input{
+  padding: 10px;
+  width: 5rem;
+  border-color: #0F7FE1;
+  outline: 0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.5em;
+}
+
+.main button{
+  width: 8rem;
+  padding: 12px;
+  outline: 0;
+  background-color: #0761B7;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+.end{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+#age{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}

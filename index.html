@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Boxing to chold the form -->
+    <div class="box">
+        <form action="">
+            <h1>Age Calculator</h1>
+            <div class="rows">
+                <section class="col-1">
+                    <label for="">Date</label><br>
+                    <input type="text" id="date" placeholder="dd" maxlength="2">
+                </section>
+
+                <section class="col-2">
+                    <label for="">Month</label><br>
+                    <input type="text" id="month" placeholder="mm" maxlength="2">
+                </section>
+
+                <section class="col-3">
+                    <label for="">Year</label><br>
+                    <input type="text" id="year" placeholder="yy" maxlength="4">
+                </section>
+            </div>
+
+            
+            <section class="main">
+                <button type="button" id="btn" onclick="age()">Submit</button>
+            </section>
+
+            <div class="age" id="age">
+
+            </div>
+        </form>
+        <p class="end">@Govacoder</p>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
