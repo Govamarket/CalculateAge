@@ -1,8 +1,8 @@
 // Working a the funtion
 function age() {
-    const userDate = document.getElementById("date");
-    const userMonth = document.getElementById("month");
-    const userYear = document.getElementById("year");
+    const userDate = document.getElementById("date").value;
+    const userMonth = document.getElementById("month").value;
+    const userYear = document.getElementById("year").value;
     const submitBtn = document.getElementById("btn");  
   
 
